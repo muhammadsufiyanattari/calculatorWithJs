@@ -1,0 +1,55 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+
+}
+button{
+    cursor: pointer;
+    padding: 10px 22px;
+    margin: 2px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 220px;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(37, 102, 158);
+    /* width: 500px; */
+    
+}
+
+#inputDiv input{
+    width: 100%;
+    
+    border: navajowhite;
+    outline: none;
+    font-size: 24px;
+    
+    /* padding:5px ; */
+    background-color: aquamarine;
+}
+.BtnMainDive{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 2px;
+}
+
+.btnRow {
+display: flex;
+justify-content: space-around;
+/* gap: 5px; */
+}
+.clearBtn{
+    width:66.6%;
+}
