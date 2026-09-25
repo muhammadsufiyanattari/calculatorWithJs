@@ -38,7 +38,7 @@ buttons.addEventListener("click", (event) => {
       updateDisplay();
     } catch {
       expression = "";
-      updateDisplay("Error");
+      updateDisplay();
     }
     return;
   }
