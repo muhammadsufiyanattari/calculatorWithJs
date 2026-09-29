@@ -95,7 +95,6 @@ button:active {
   transform: translateY(1px) scale(0.98);
 }
 
-
 .btnRow.one button,
 .btnRow button[id="/"],
 .btnRow button[id="*"],
